@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace xadrez_console.tabulerio
 {
-    internal class Posicao
+    internal class Tabulerio
     {
     }
 }
