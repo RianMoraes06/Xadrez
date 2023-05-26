@@ -1,5 +1,6 @@
 ﻿using System;
-using xadrez_console.tabulerio;
+using tabuleiro;
+using xadrez_console;
 
 namespace Course
 
@@ -9,11 +10,11 @@ namespace Course
 
         static void Main(string[] args)
         {
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Posicao P;
-            P = new Posicao(3, 4);
-
-            Console.WriteLine("Posição: " + P);
+            Tela.imprimirTabuleiro(tab);
+            
+            Console.ReadLine();
         }
     }
 } 
