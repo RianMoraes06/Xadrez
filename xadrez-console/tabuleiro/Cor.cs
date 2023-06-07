@@ -1,14 +1,16 @@
-﻿using System;
-namespace xadrez_console.tabuleiro
+﻿
+namespace tabuleiro
 {
     enum Cor
     {
         Branca,
         Preta,
-        Laranja,
+        Amarela,
         Azul,
-        Rosa,
-        Verde,
         Vermelha,
+        Verde,
+        Laranja,
+        Rosa
+          
     }
 }

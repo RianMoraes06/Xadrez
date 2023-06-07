@@ -1,12 +1,11 @@
 ﻿using System;
 using tabuleiro;
-using xadrez_console.tabuleiro;
 
 namespace xadrez
 {
     internal class Torre : Peca
     {
-        public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Torre(Tabuleiro tab, Cor cor) : base(cor, tab)
         {
         }
 
