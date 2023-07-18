@@ -34,7 +34,7 @@ namespace xadrez
                     break;
                 }
                 pos.definirValores(pos.linha, pos.coluna - 1);
-
+            }
                 // Direita
                 pos.definirValores(posicao.linha, posicao.coluna + 1);
                 while (tab.posicaoValida(pos) && podeMover(pos))
@@ -118,9 +118,7 @@ namespace xadrez
                     }
                     pos.definirValores(pos.linha + 1, pos.coluna - 1);
                 }
-                
-            }
-            return mat;
+                return mat;
 
         }
     }
